@@ -8,7 +8,7 @@
 import UIKit
 
 protocol SceneDelegateIntput {
-    func setStartScreent()
+    func setStartScreent(autorithed: Bool)
 }
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -57,10 +57,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 }
 
 extension SceneDelegate: SceneDelegateIntput {
-    func setStartScreent() {
-        let viewController = SignInAssembly.assembleModule()
+    func setStartScreent(autorithed: Bool = false) {
+        let viewController = ContentViewController()
         let navigation = UINavigationController(rootViewController: viewController)
-        
-        self.window?.rootViewController = ContentViewController()
+        self.window?.rootViewController = autorithed ? navigation : SignInAssembly.assembleModule(with: SignInAssembly.Model(delegate: self))
     }
 }

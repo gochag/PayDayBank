@@ -7,12 +7,12 @@
 
 import UIKit
 
-final class SingOutAssembly: Assembly {
+final class SignUpAssembly: Assembly {
     
     static func assembleModule() -> UIViewController {
         
-        let view = SignOutViewController()
-        let presenter = SignOutPrsenter()
+        let view = SignUpViewController()
+        let presenter = SignUpPrsenter()
         
         view.presenter = presenter
         presenter.view = view

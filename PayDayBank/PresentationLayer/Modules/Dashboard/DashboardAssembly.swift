@@ -7,12 +7,16 @@
 
 import UIKit
 
-final class WelcomeAssembly: Assembly {
+final class DashboardAssembly: Assembly {
     
     static func assembleModule() -> UIViewController {
         
-        let view = WelcomeViewController()
-        let presenter = WelcomePresenter()
+        let transactionService = Builder.shared.transactionService
+        
+        let provider = DashboardProviderImp()
+        
+        let view = DashboardViewController()
+        let presenter = DashboardPresenter(service: transactionService, provider: provider)
         
         view.presenter = presenter
         presenter.view = view

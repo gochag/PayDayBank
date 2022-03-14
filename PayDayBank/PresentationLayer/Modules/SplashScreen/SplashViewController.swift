@@ -7,23 +7,33 @@
 
 import UIKit
 
-class SplashViewController: ViewController {
+protocol SplashViewIntput: AnyObject {
+    
+}
 
+final class SplashViewController: UIViewController {
+    
+    var presenter: SplashViewOutput?
+    
+    // MARK: Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.presenter?.viewDidLoad()
+        self.drawSelf()
     }
+
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK: Draw self
+    
+    private func drawSelf() {
+        self.view.backgroundColor = .blue
     }
-    */
+}
 
+
+// MARK: - SplashViewIntput
+
+extension SplashViewController: SplashViewIntput {
+    
 }

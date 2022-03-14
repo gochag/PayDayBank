@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+enum AppError: Error {
+    case fileNotFound(String)
+    case loadFile(String)
+    case parsing(String)
+    case unknown
+}

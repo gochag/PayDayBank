@@ -7,16 +7,16 @@
 
 import Foundation
 
-protocol SignOutViewOutput: ViewOutput {
+protocol SignUpViewOutput: ViewOutput {
     
 }
 
-final class SignOutPrsenter {
+final class SignUpPrsenter {
     
-    weak var view: SignOutViewIntput?
+    weak var view: SignUpViewIntput?
     
 }
 
-extension SignOutPrsenter: SignOutViewOutput {
+extension SignUpPrsenter: SignUpViewOutput {
     
 }

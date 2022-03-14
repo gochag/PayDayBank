@@ -6,3 +6,18 @@
 //
 
 import Foundation
+import UIKit
+
+final class Builder {
+    
+    let networkService: NetworkService
+    let transactionService: TransactionService
+    
+    static let shared = Builder()
+    
+    private init() {
+        self.networkService = NetworkMockData()
+        self.transactionService = TransactionServiceImp(networkService: networkService)
+    }
+    
+}

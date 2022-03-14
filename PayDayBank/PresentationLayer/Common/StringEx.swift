@@ -12,4 +12,8 @@ extension String {
         let regex = try! NSRegularExpression(pattern: format, options: .caseInsensitive)
         return regex.firstMatch(in: self, options: [], range: NSRange(location: 0, length: self.count)) != nil
     }
+    
+    func firstLetter() -> String {
+          return prefix(1).uppercased()
+    }
 }

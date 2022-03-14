@@ -7,15 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4027DB6327DD3C7100DB5AE9 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4027DB6227DD3C7100DB5AE9 /* SignUpPresenter.swift */; };
+		4027DB6527DD3D7C00DB5AE9 /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4027DB6427DD3D7C00DB5AE9 /* SignInPresenter.swift */; };
+		4027DB6727DD3DB000DB5AE9 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4027DB6627DD3DB000DB5AE9 /* DashboardPresenter.swift */; };
+		4027DB6927DD3E4F00DB5AE9 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4027DB6827DD3E4F00DB5AE9 /* SplashPresenter.swift */; };
 		40773D1F27DD343900C7270A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40773D1E27DD343900C7270A /* AppDelegate.swift */; };
 		40773D2127DD343900C7270A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40773D2027DD343900C7270A /* SceneDelegate.swift */; };
-		40773D2327DD343900C7270A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40773D2227DD343900C7270A /* ViewController.swift */; };
-		40773D2627DD343900C7270A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40773D2427DD343900C7270A /* Main.storyboard */; };
 		40773D2827DD343C00C7270A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40773D2727DD343C00C7270A /* Assets.xcassets */; };
 		40773D2B27DD343C00C7270A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40773D2927DD343C00C7270A /* LaunchScreen.storyboard */; };
 		40773D3627DD343C00C7270A /* PayDayBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40773D3527DD343C00C7270A /* PayDayBankTests.swift */; };
 		40773D4027DD343C00C7270A /* PayDayBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40773D3F27DD343C00C7270A /* PayDayBankUITests.swift */; };
 		40773D4227DD343C00C7270A /* PayDayBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40773D4127DD343C00C7270A /* PayDayBankUITestsLaunchTests.swift */; };
+		40773D5627DD383F00C7270A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40773D5527DD383F00C7270A /* SignUpViewController.swift */; };
+		40773D5827DD388B00C7270A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40773D5727DD388B00C7270A /* SignInViewController.swift */; };
+		40773D5A27DD38AA00C7270A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40773D5927DD38AA00C7270A /* DashboardViewController.swift */; };
+		40773D5C27DD38C900C7270A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40773D5B27DD38C900C7270A /* SplashViewController.swift */; };
+		40ADE28B27DE5808004E1A1A /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ADE28A27DE5808004E1A1A /* TransactionCell.swift */; };
+		40ADE28D27DE5902004E1A1A /* TableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ADE28C27DE5902004E1A1A /* TableViewExt.swift */; };
+		40ADE28F27DE5957004E1A1A /* NSObjectExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ADE28E27DE5957004E1A1A /* NSObjectExt.swift */; };
+		40ADE29227DE87D7004E1A1A /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ADE29127DE87D7004E1A1A /* CircleView.swift */; };
+		40ADE29427DF4334004E1A1A /* DashboarDiagramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ADE29327DF4334004E1A1A /* DashboarDiagramCell.swift */; };
+		40ADE29927DF5093004E1A1A /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ADE29827DF5093004E1A1A /* DateExt.swift */; };
+		40ADE29B27DF6057004E1A1A /* DashboardProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ADE29A27DF6057004E1A1A /* DashboardProvider.swift */; };
+		40C8B94A27DDDA4E00230499 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B94927DDDA4E00230499 /* Assembly.swift */; };
+		40C8B94C27DDDAB600230499 /* SplashAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B94B27DDDAB600230499 /* SplashAssembly.swift */; };
+		40C8B94E27DDDC0500230499 /* DashboardAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B94D27DDDC0500230499 /* DashboardAssembly.swift */; };
+		40C8B95027DDDC2F00230499 /* SignInAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B94F27DDDC2F00230499 /* SignInAssembly.swift */; };
+		40C8B95227DDDC8300230499 /* SingUpAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B95127DDDC8300230499 /* SingUpAssembly.swift */; };
+		40C8B95427DDDEF700230499 /* ViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B95327DDDEF700230499 /* ViewOutput.swift */; };
+		40C8B95627DDE45900230499 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B95527DDE45900230499 /* Colors.swift */; };
+		40C8B95827DDF89500230499 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B95727DDF89500230499 /* Builder.swift */; };
+		40C8B95B27DE0BEE00230499 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B95A27DE0BEE00230499 /* ContentViewController.swift */; };
+		40C8B95D27DE0F0600230499 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B95C27DE0F0600230499 /* StringEx.swift */; };
+		40C8B96027DE1DCC00230499 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B95F27DE1DCC00230499 /* TransactionViewController.swift */; };
+		40C8B96227DE1DEC00230499 /* TransactionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B96127DE1DEC00230499 /* TransactionPresenter.swift */; };
+		40C8B96427DE1E2300230499 /* TransactionAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B96327DE1E2300230499 /* TransactionAssembly.swift */; };
+		40C8B96927DE272600230499 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = 40C8B96827DE272600230499 /* db.json */; };
+		40C8B96F27DE2BC400230499 /* NetworkMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B96E27DE2BC400230499 /* NetworkMockData.swift */; };
+		40C8B97127DE2E3500230499 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B97027DE2E3500230499 /* TransactionService.swift */; };
+		40C8B97427DE2F7900230499 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B97327DE2F7900230499 /* Transaction.swift */; };
+		40C8B97627DE303B00230499 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B97527DE303B00230499 /* Customer.swift */; };
+		40C8B97827DE308500230499 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B97727DE308500230499 /* Accounts.swift */; };
+		40C8B97A27DE349900230499 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B97927DE349900230499 /* AppError.swift */; };
+		40C8B97C27DE3E5800230499 /* DateFormatExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B97B27DE3E5800230499 /* DateFormatExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +70,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4027DB6227DD3C7100DB5AE9 /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
+		4027DB6427DD3D7C00DB5AE9 /* SignInPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
+		4027DB6627DD3DB000DB5AE9 /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DashboardPresenter.swift; path = PayDayBank/PresentationLayer/Modules/SignIn/DashboardPresenter.swift; sourceTree = SOURCE_ROOT; };
+		4027DB6827DD3E4F00DB5AE9 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
 		40773D1B27DD343900C7270A /* PayDayBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayDayBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40773D1E27DD343900C7270A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40773D2027DD343900C7270A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40773D2227DD343900C7270A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		40773D2527DD343900C7270A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40773D2727DD343C00C7270A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40773D2A27DD343C00C7270A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40773D2C27DD343C00C7270A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +85,39 @@
 		40773D3B27DD343C00C7270A /* PayDayBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayDayBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40773D3F27DD343C00C7270A /* PayDayBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayDayBankUITests.swift; sourceTree = "<group>"; };
 		40773D4127DD343C00C7270A /* PayDayBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayDayBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40773D5527DD383F00C7270A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		40773D5727DD388B00C7270A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		40773D5927DD38AA00C7270A /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		40773D5B27DD38C900C7270A /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		40ADE28A27DE5808004E1A1A /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		40ADE28C27DE5902004E1A1A /* TableViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExt.swift; sourceTree = "<group>"; };
+		40ADE28E27DE5957004E1A1A /* NSObjectExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExt.swift; sourceTree = "<group>"; };
+		40ADE29127DE87D7004E1A1A /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		40ADE29327DF4334004E1A1A /* DashboarDiagramCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboarDiagramCell.swift; sourceTree = "<group>"; };
+		40ADE29827DF5093004E1A1A /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
+		40ADE29A27DF6057004E1A1A /* DashboardProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardProvider.swift; sourceTree = "<group>"; };
+		40ADE29E27DF818A004E1A1A /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		40C8B94927DDDA4E00230499 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		40C8B94B27DDDAB600230499 /* SplashAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAssembly.swift; sourceTree = "<group>"; };
+		40C8B94D27DDDC0500230499 /* DashboardAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardAssembly.swift; sourceTree = "<group>"; };
+		40C8B94F27DDDC2F00230499 /* SignInAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAssembly.swift; sourceTree = "<group>"; };
+		40C8B95127DDDC8300230499 /* SingUpAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpAssembly.swift; sourceTree = "<group>"; };
+		40C8B95327DDDEF700230499 /* ViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOutput.swift; sourceTree = "<group>"; };
+		40C8B95527DDE45900230499 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		40C8B95727DDF89500230499 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		40C8B95A27DE0BEE00230499 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		40C8B95C27DE0F0600230499 /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
+		40C8B95F27DE1DCC00230499 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		40C8B96127DE1DEC00230499 /* TransactionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionPresenter.swift; sourceTree = "<group>"; };
+		40C8B96327DE1E2300230499 /* TransactionAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAssembly.swift; sourceTree = "<group>"; };
+		40C8B96827DE272600230499 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
+		40C8B96E27DE2BC400230499 /* NetworkMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMockData.swift; sourceTree = "<group>"; };
+		40C8B97027DE2E3500230499 /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		40C8B97327DE2F7900230499 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		40C8B97527DE303B00230499 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		40C8B97727DE308500230499 /* Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
+		40C8B97927DE349900230499 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		40C8B97B27DE3E5800230499 /* DateFormatExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +148,7 @@
 		40773D1227DD343900C7270A = {
 			isa = PBXGroup;
 			children = (
+				40ADE29E27DF818A004E1A1A /* Readme.md */,
 				40773D1D27DD343900C7270A /* PayDayBank */,
 				40773D3427DD343C00C7270A /* PayDayBankTests */,
 				40773D3E27DD343C00C7270A /* PayDayBankUITests */,
@@ -99,13 +169,13 @@
 		40773D1D27DD343900C7270A /* PayDayBank */ = {
 			isa = PBXGroup;
 			children = (
-				40773D1E27DD343900C7270A /* AppDelegate.swift */,
-				40773D2027DD343900C7270A /* SceneDelegate.swift */,
-				40773D2227DD343900C7270A /* ViewController.swift */,
-				40773D2427DD343900C7270A /* Main.storyboard */,
-				40773D2727DD343C00C7270A /* Assets.xcassets */,
-				40773D2927DD343C00C7270A /* LaunchScreen.storyboard */,
 				40773D2C27DD343C00C7270A /* Info.plist */,
+				40C8B96B27DE286100230499 /* AppLayer */,
+				40C8B96527DE267800230499 /* BusinessLayer */,
+				40C8B97227DE2E9100230499 /* CoreLayer */,
+				40773D4E27DD35A000C7270A /* PresentationLayer */,
+				40C8B96C27DE287700230499 /* Resources */,
+				40773D2927DD343C00C7270A /* LaunchScreen.storyboard */,
 			);
 			path = PayDayBank;
 			sourceTree = "<group>";
@@ -125,6 +195,184 @@
 				40773D4127DD343C00C7270A /* PayDayBankUITestsLaunchTests.swift */,
 			);
 			path = PayDayBankUITests;
+			sourceTree = "<group>";
+		};
+		40773D4E27DD35A000C7270A /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B94827DDCDC900230499 /* Common */,
+				40773D4F27DD35BC00C7270A /* Modules */,
+				40C8B96A27DE283C00230499 /* Model */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		40773D4F27DD35BC00C7270A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				40773D5127DD368300C7270A /* Dashboard */,
+				40C8B95E27DE1CCF00230499 /* Transaction */,
+				40773D5327DD37BB00C7270A /* SignUp */,
+				40773D5227DD37AA00C7270A /* SignIn */,
+				40773D5027DD360500C7270A /* SplashScreen */,
+				40C8B95927DE012300230499 /* Content */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		40773D5027DD360500C7270A /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B94B27DDDAB600230499 /* SplashAssembly.swift */,
+				40773D5B27DD38C900C7270A /* SplashViewController.swift */,
+				4027DB6827DD3E4F00DB5AE9 /* SplashPresenter.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		40773D5127DD368300C7270A /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B94D27DDDC0500230499 /* DashboardAssembly.swift */,
+				40ADE29027DE87B9004E1A1A /* View */,
+				4027DB6627DD3DB000DB5AE9 /* DashboardPresenter.swift */,
+				40ADE29A27DF6057004E1A1A /* DashboardProvider.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		40773D5227DD37AA00C7270A /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B94F27DDDC2F00230499 /* SignInAssembly.swift */,
+				40773D5727DD388B00C7270A /* SignInViewController.swift */,
+				4027DB6427DD3D7C00DB5AE9 /* SignInPresenter.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		40773D5327DD37BB00C7270A /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B95127DDDC8300230499 /* SingUpAssembly.swift */,
+				40773D5527DD383F00C7270A /* SignUpViewController.swift */,
+				4027DB6227DD3C7100DB5AE9 /* SignUpPresenter.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		40ADE28927DE5723004E1A1A /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				40ADE28A27DE5808004E1A1A /* TransactionCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		40ADE29027DE87B9004E1A1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40ADE29527DF43B1004E1A1A /* Cell */,
+				40773D5927DD38AA00C7270A /* DashboardViewController.swift */,
+				40ADE29127DE87D7004E1A1A /* CircleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40ADE29527DF43B1004E1A1A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				40ADE29327DF4334004E1A1A /* DashboarDiagramCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		40C8B94827DDCDC900230499 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B94927DDDA4E00230499 /* Assembly.swift */,
+				40C8B95327DDDEF700230499 /* ViewOutput.swift */,
+				40C8B95527DDE45900230499 /* Colors.swift */,
+				40C8B95C27DE0F0600230499 /* StringEx.swift */,
+				40C8B97B27DE3E5800230499 /* DateFormatExt.swift */,
+				40ADE28C27DE5902004E1A1A /* TableViewExt.swift */,
+				40ADE28E27DE5957004E1A1A /* NSObjectExt.swift */,
+				40ADE29827DF5093004E1A1A /* DateExt.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		40C8B95927DE012300230499 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B95A27DE0BEE00230499 /* ContentViewController.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		40C8B95E27DE1CCF00230499 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				40ADE28927DE5723004E1A1A /* cell */,
+				40C8B96327DE1E2300230499 /* TransactionAssembly.swift */,
+				40C8B95F27DE1DCC00230499 /* TransactionViewController.swift */,
+				40C8B96127DE1DEC00230499 /* TransactionPresenter.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		40C8B96527DE267800230499 /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B96D27DE2B2100230499 /* Service */,
+			);
+			path = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		40C8B96A27DE283C00230499 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B97327DE2F7900230499 /* Transaction.swift */,
+				40C8B97527DE303B00230499 /* Customer.swift */,
+				40C8B97727DE308500230499 /* Accounts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40C8B96B27DE286100230499 /* AppLayer */ = {
+			isa = PBXGroup;
+			children = (
+				40773D1E27DD343900C7270A /* AppDelegate.swift */,
+				40773D2027DD343900C7270A /* SceneDelegate.swift */,
+				40C8B97927DE349900230499 /* AppError.swift */,
+				40C8B95727DDF89500230499 /* Builder.swift */,
+			);
+			path = AppLayer;
+			sourceTree = "<group>";
+		};
+		40C8B96C27DE287700230499 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B96827DE272600230499 /* db.json */,
+				40773D2727DD343C00C7270A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		40C8B96D27DE2B2100230499 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B97027DE2E3500230499 /* TransactionService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		40C8B97227DE2E9100230499 /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B96E27DE2BC400230499 /* NetworkMockData.swift */,
+			);
+			path = CoreLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +480,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				40773D2B27DD343C00C7270A /* LaunchScreen.storyboard in Resources */,
+				40C8B96927DE272600230499 /* db.json in Resources */,
 				40773D2827DD343C00C7270A /* Assets.xcassets in Resources */,
-				40773D2627DD343900C7270A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +506,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40773D2327DD343900C7270A /* ViewController.swift in Sources */,
+				40C8B96F27DE2BC400230499 /* NetworkMockData.swift in Sources */,
+				40C8B96427DE1E2300230499 /* TransactionAssembly.swift in Sources */,
+				40C8B95627DDE45900230499 /* Colors.swift in Sources */,
+				40C8B95827DDF89500230499 /* Builder.swift in Sources */,
+				40ADE28B27DE5808004E1A1A /* TransactionCell.swift in Sources */,
+				40C8B97827DE308500230499 /* Accounts.swift in Sources */,
+				40C8B94A27DDDA4E00230499 /* Assembly.swift in Sources */,
+				40C8B94E27DDDC0500230499 /* DashboardAssembly.swift in Sources */,
+				40C8B95B27DE0BEE00230499 /* ContentViewController.swift in Sources */,
+				40C8B96227DE1DEC00230499 /* TransactionPresenter.swift in Sources */,
+				40ADE29B27DF6057004E1A1A /* DashboardProvider.swift in Sources */,
+				40ADE28F27DE5957004E1A1A /* NSObjectExt.swift in Sources */,
+				40C8B97627DE303B00230499 /* Customer.swift in Sources */,
+				40C8B95427DDDEF700230499 /* ViewOutput.swift in Sources */,
 				40773D1F27DD343900C7270A /* AppDelegate.swift in Sources */,
+				4027DB6327DD3C7100DB5AE9 /* SignUpPresenter.swift in Sources */,
+				40ADE29927DF5093004E1A1A /* DateExt.swift in Sources */,
+				40C8B96027DE1DCC00230499 /* TransactionViewController.swift in Sources */,
+				4027DB6727DD3DB000DB5AE9 /* DashboardPresenter.swift in Sources */,
+				4027DB6927DD3E4F00DB5AE9 /* SplashPresenter.swift in Sources */,
+				40C8B95027DDDC2F00230499 /* SignInAssembly.swift in Sources */,
+				40C8B97427DE2F7900230499 /* Transaction.swift in Sources */,
+				40773D5627DD383F00C7270A /* SignUpViewController.swift in Sources */,
+				40C8B97127DE2E3500230499 /* TransactionService.swift in Sources */,
+				40C8B95227DDDC8300230499 /* SingUpAssembly.swift in Sources */,
+				40ADE28D27DE5902004E1A1A /* TableViewExt.swift in Sources */,
+				40ADE29427DF4334004E1A1A /* DashboarDiagramCell.swift in Sources */,
+				40773D5827DD388B00C7270A /* SignInViewController.swift in Sources */,
 				40773D2127DD343900C7270A /* SceneDelegate.swift in Sources */,
+				40C8B95D27DE0F0600230499 /* StringEx.swift in Sources */,
+				40C8B97A27DE349900230499 /* AppError.swift in Sources */,
+				40773D5C27DD38C900C7270A /* SplashViewController.swift in Sources */,
+				40ADE29227DE87D7004E1A1A /* CircleView.swift in Sources */,
+				40C8B97C27DE3E5800230499 /* DateFormatExt.swift in Sources */,
+				40773D5A27DD38AA00C7270A /* DashboardViewController.swift in Sources */,
+				4027DB6527DD3D7C00DB5AE9 /* SignInPresenter.swift in Sources */,
+				40C8B94C27DDDAB600230499 /* SplashAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +579,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		40773D2427DD343900C7270A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				40773D2527DD343900C7270A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		40773D2927DD343C00C7270A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +718,6 @@
 				INFOPLIST_FILE = PayDayBank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +745,6 @@
 				INFOPLIST_FILE = PayDayBank/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
